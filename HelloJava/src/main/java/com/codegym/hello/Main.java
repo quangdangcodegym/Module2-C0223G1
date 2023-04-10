@@ -1,4 +1,4 @@
-package com.codegym;
+package com.codegym.hello;
 
 public class Main {
     public static void main(String[] args) {

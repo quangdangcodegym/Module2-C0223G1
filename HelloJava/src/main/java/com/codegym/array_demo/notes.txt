@@ -1,0 +1,2 @@
+Phân biệt biến mảng (biến tham chiếu), Đối tượng mảng
+int [] arr = new int[5];

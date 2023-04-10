@@ -1,4 +1,4 @@
-package com.codegym;
+package com.codegym.hello;
 
 import java.util.Scanner;
 
