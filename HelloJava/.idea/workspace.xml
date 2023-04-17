@@ -31,48 +31,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/CODEGYM/CODEGYM/Module2/C0223G1/HelloJava"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CODEGYM/CODEGYM/Module2/C0223G1/HelloJava&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Search">
+}</component>
+  <component name="RunManager" selected="Application.SwitchManager">
     <configuration name="ArrayLearn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codegym.array_demo.ArrayLearn" />
       <module name="HelloJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.codegym.array_demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.hello.Customer" />
-      <module name="HelloJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codegym.hello.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Java2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.javaoverview.Java2" />
-      <module name="HelloJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codegym.javaoverview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +67,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringFormatDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.array_demo.StringFormatDemo" />
+    <configuration name="StopWatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.oop_excersize.basic.StopWatch" />
       <module name="HelloJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.array_demo.*" />
+          <option name="PATTERN" value="com.codegym.oop_excersize.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwitchButton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.oop_excersize.SwitchButton" />
+      <module name="HelloJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codegym.oop_excersize.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwitchManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.oop_excersize.SwitchManager" />
+      <module name="HelloJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codegym.oop_excersize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SwitchManager" />
+        <item itemvalue="Application.SwitchButton" />
+        <item itemvalue="Application.StopWatch" />
         <item itemvalue="Application.Search" />
         <item itemvalue="Application.ArrayLearn" />
-        <item itemvalue="Application.Java2" />
-        <item itemvalue="Application.StringFormatDemo" />
-        <item itemvalue="Application.Customer" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +129,10 @@
       <workItem from="1681176788588" duration="158000" />
       <workItem from="1681195574522" duration="7156000" />
       <workItem from="1681262876250" duration="1898000" />
-      <workItem from="1681350683975" duration="2995000" />
+      <workItem from="1681350683975" duration="3604000" />
+      <workItem from="1681456414681" duration="1241000" />
+      <workItem from="1681521631928" duration="43000" />
+      <workItem from="1681713823367" duration="5373000" />
     </task>
     <servers />
   </component>
