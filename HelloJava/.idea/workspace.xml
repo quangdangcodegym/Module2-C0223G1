@@ -40,13 +40,13 @@
     &quot;last_opened_file_path&quot;: &quot;D:/CODEGYM/CODEGYM/Module2/C0223G1/HelloJava&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SwitchManager">
-    <configuration name="ArrayLearn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.array_demo.ArrayLearn" />
+  <component name="RunManager" selected="Application.Person">
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.passvalue_reference.Person" />
       <module name="HelloJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.array_demo.*" />
+          <option name="PATTERN" value="com.codegym.passvalue_reference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Person" />
         <item itemvalue="Application.SwitchManager" />
         <item itemvalue="Application.SwitchButton" />
         <item itemvalue="Application.StopWatch" />
         <item itemvalue="Application.Search" />
-        <item itemvalue="Application.ArrayLearn" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +132,9 @@
       <workItem from="1681350683975" duration="3604000" />
       <workItem from="1681456414681" duration="1241000" />
       <workItem from="1681521631928" duration="43000" />
-      <workItem from="1681713823367" duration="5373000" />
+      <workItem from="1681713823367" duration="5721000" />
+      <workItem from="1681741075062" duration="755000" />
+      <workItem from="1681807940596" duration="4587000" />
     </task>
     <servers />
   </component>
