@@ -1,0 +1,11 @@
+Kế thừa:
+	định nghĩa: 
+	override
+	+ toString()
+	+ đặc điểm khi ghi đè
+Đa hình:
+	instance of
+	Ép kiểu tường minh, ngầm định
+	super
+	
+Polymorphism is the ability of an object to take on many forms (dịch câu này)

@@ -7,12 +7,13 @@ public class Search {
     public static int MIN = 10;
     public static void main(String[] args) {
         int[] arr = {5, 1, 6, 8, 1, 5};
-//        selectionSort(arr);
-        interchangeSort(arr);
+
+        linearSearch(arr, 6);
         System.out.println(Arrays.toString(arr));
     }
 
     public static int linearSearch(int[] numbers, int value) {
+        System.out.println("Bat dau thuat toan tim kiem");
         int index = -1;
         for (int i = 0; i < numbers.length; i++) {
             if (numbers[i] == value) {
@@ -20,6 +21,11 @@ public class Search {
                 break;
             }
         }
+
+        System.out.println("Vị tri tim được");
+        int a = 5;
+        int b = a+2;
+        System.out.println(b);
         return index;
     }
 

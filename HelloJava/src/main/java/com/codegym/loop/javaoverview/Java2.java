@@ -1,4 +1,4 @@
-package com.codegym.javaoverview;
+package com.codegym.loop.javaoverview;
 
 import java.util.Scanner;
 

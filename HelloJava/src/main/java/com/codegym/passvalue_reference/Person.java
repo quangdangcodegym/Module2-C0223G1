@@ -21,6 +21,12 @@ public class Person {
 
         System.out.println(p1);
         System.out.println(p2);
+
+
+        Math.random();
+        System.currentTimeMillis();
+
+
     }
 
     public static void swap(Person  a, Person b) {
