@@ -19,13 +19,13 @@ public class Paint {
 
 
         /**
-         Thêm 1 hình học
+         Thêm 1 hình học: cho lựa chọn hình khi thêm
          Sửa 1 hình học
-         Xóa 1 hình học tại vị trí
-         Sắp xếp các hình học tăng dần theo diện tích
+         Xóa 1 hình học tại vị trí index
+         Sắp xếp các hình học tăng dần theo diện tích, theo màu, theo bán kính, theo tên
          Tính tổng diện tích của tất cả các hình
          Tính tổng diện tích của tất cả các hình có màu đỏ và đã được tô màu
-
+         Tìm các hình học theo màu, theo trạng thái đã được tô hay chưa
          */
     }
     // Câu 3:
