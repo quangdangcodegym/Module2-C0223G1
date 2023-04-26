@@ -38,15 +38,29 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/CODEGYM/CODEGYM/Module2/C0223G1/HelloJava/src/main/java/com/codegym/equal_hashcode"
+    "last_opened_file_path": "D:/CODEGYM/CODEGYM/Module2/C0223G1/HelloJava/src/main/java/com/codegym/dsa_danhsach"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CODEGYM\CODEGYM\Module2\C0223G1\HelloJava\src\main\java\com\codegym\dsa_danhsach" />
       <recent name="D:\CODEGYM\CODEGYM\Module2\C0223G1\HelloJava\src\main\java\com\codegym\equal_hashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.codegym.equal_hashcode.Rectangle (1)">
+  <component name="RunManager" selected="Application.DSA_DanhSach">
+    <configuration name="DSA_DanhSach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.dsa_danhsach.DSA_DanhSach" />
+      <module name="HelloJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codegym.dsa_danhsach.baitap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codegym.animal_abstract_interface.Main" />
       <module name="HelloJava" />
@@ -60,25 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PointMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.extends_oop_ex.PointMain" />
+    <configuration name="Paint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.resizeabe.Paint" />
       <module name="HelloJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.extends_oop_ex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.extends_oop.Rectangle" />
-      <module name="HelloJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codegym.extends_oop.*" />
+          <option name="PATTERN" value="com.codegym.resizeabe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DSA_DanhSach" />
+        <item itemvalue="Application.Paint" />
         <item itemvalue="Application.com.codegym.equal_hashcode.Rectangle (1)" />
         <item itemvalue="Application.com.codegym.equal_hashcode.Rectangle" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.PointMain" />
-        <item itemvalue="Application.Rectangle" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +148,11 @@
       <workItem from="1682040881253" duration="4761000" />
       <workItem from="1682309458885" duration="901000" />
       <workItem from="1682311071458" duration="627000" />
-      <workItem from="1682327591283" duration="4707000" />
+      <workItem from="1682327591283" duration="4885000" />
+      <workItem from="1682386651062" duration="340000" />
+      <workItem from="1682389215769" duration="3130000" />
+      <workItem from="1682432576940" duration="28000" />
+      <workItem from="1682471981867" duration="2862000" />
     </task>
     <servers />
   </component>

@@ -13,11 +13,6 @@ public class Paint {
         shapes[3] = new Circle(6, "BLACK", false);
         shapes[4] = new Rectangle(7, 1, "RED", true);
 
-
-
-
-
-
         /**
          Thêm 1 hình học: cho lựa chọn hình khi thêm
          Sửa 1 hình học
