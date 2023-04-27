@@ -47,13 +47,39 @@
       <recent name="D:\CODEGYM\CODEGYM\Module2\C0223G1\HelloJava\src\main\java\com\codegym\equal_hashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShapeManager">
+  <component name="RunManager" selected="Application.MyLinkedList">
     <configuration name="DSA_DanhSach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codegym.dsa_danhsach.DSA_DanhSach" />
       <module name="HelloJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.codegym.dsa_danhsach.baitap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.dsa_trienkhai_danhsach.MyLinkedList" />
+      <module name="HelloJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codegym.dsa_trienkhai_danhsach.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.dsa_trienkhai_danhsach.MyList" />
+      <module name="HelloJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codegym.dsa_trienkhai_danhsach.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,39 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.codegym.equal_hashcode.Rectangle (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.equal_hashcode.Rectangle" />
-      <module name="HelloJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codegym.equal_hashcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.codegym.equal_hashcode.Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.equal_hashcode.Rectangle" />
-      <module name="HelloJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codegym.equal_hashcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyLinkedList" />
+        <item itemvalue="Application.MyList" />
         <item itemvalue="Application.ShapeManager" />
         <item itemvalue="Application.DSA_DanhSach" />
         <item itemvalue="Application.Paint" />
-        <item itemvalue="Application.com.codegym.equal_hashcode.Rectangle (1)" />
-        <item itemvalue="Application.com.codegym.equal_hashcode.Rectangle" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +153,8 @@
       <workItem from="1682389215769" duration="3130000" />
       <workItem from="1682432576940" duration="28000" />
       <workItem from="1682471981867" duration="3399000" />
-      <workItem from="1682517025185" duration="4420000" />
+      <workItem from="1682517025185" duration="5863000" />
+      <workItem from="1682559021520" duration="5738000" />
     </task>
     <servers />
   </component>
