@@ -32,22 +32,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CODEGYM/CODEGYM/Module2/C0223G1/HelloJava/src/main/java/com/codegym/dsa_danhsach&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/CODEGYM/CODEGYM/Module2/C0223G1/HelloJava/src/main/java/com/codegym/dsa_danhsach",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\CODEGYM\CODEGYM\Module2\C0223G1\HelloJava\src\main\java\com\codegym\dsa_danhsach" />
       <recent name="D:\CODEGYM\CODEGYM\Module2\C0223G1\HelloJava\src\main\java\com\codegym\equal_hashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyLinkedList">
+  <component name="RunManager" selected="Application.MyStack">
     <configuration name="DSA_DanhSach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codegym.dsa_danhsach.DSA_DanhSach" />
       <module name="HelloJava" />
@@ -87,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Paint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.resizeabe.Paint" />
+    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.stack.MyStack" />
       <module name="HelloJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.resizeabe.*" />
+          <option name="PATTERN" value="com.codegym.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyStack" />
         <item itemvalue="Application.MyLinkedList" />
         <item itemvalue="Application.MyList" />
         <item itemvalue="Application.ShapeManager" />
         <item itemvalue="Application.DSA_DanhSach" />
-        <item itemvalue="Application.Paint" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +159,8 @@
       <workItem from="1682471981867" duration="3399000" />
       <workItem from="1682517025185" duration="5863000" />
       <workItem from="1682559021520" duration="5738000" />
+      <workItem from="1682584953901" duration="865000" />
+      <workItem from="1682645229465" duration="3529000" />
     </task>
     <servers />
   </component>
