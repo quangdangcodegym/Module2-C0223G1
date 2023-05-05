@@ -32,32 +32,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/CODEGYM/CODEGYM/Module2/C0223G1/HelloJava/src/main/java/com/codegym/dsa_danhsach",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CODEGYM/CODEGYM/Module2/C0223G1/HelloJava/src/main/java/com/codegym/dsa_danhsach&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\CODEGYM\CODEGYM\Module2\C0223G1\HelloJava\src\main\java\com\codegym\dsa_danhsach" />
       <recent name="D:\CODEGYM\CODEGYM\Module2\C0223G1\HelloJava\src\main\java\com\codegym\equal_hashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyStack">
-    <configuration name="DSA_DanhSach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.dsa_danhsach.DSA_DanhSach" />
+  <component name="RunManager" selected="Application.FileMain">
+    <configuration name="FileMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.fileio.FileMain" />
       <module name="HelloJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.dsa_danhsach.baitap.*" />
+          <option name="PATTERN" value="com.codegym.fileio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,25 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.dsa_trienkhai_danhsach.MyLinkedList" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.g2_stack_queue.Main" />
       <module name="HelloJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.dsa_trienkhai_danhsach.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.dsa_trienkhai_danhsach.MyList" />
-      <module name="HelloJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codegym.dsa_trienkhai_danhsach.*" />
+          <option name="PATTERN" value="com.codegym.g2_stack_queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +91,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapeManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.dsa_danhsach.baitap.ShapeManager" />
+    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.try_catch.Triangle" />
       <module name="HelloJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.dsa_danhsach.baitap.*" />
+          <option name="PATTERN" value="com.codegym.try_catch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.codegym.try_catch.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.try_catch.Main" />
+      <module name="HelloJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codegym.try_catch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileMain" />
+        <item itemvalue="Application.com.codegym.try_catch.Main" />
+        <item itemvalue="Application.Triangle" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MyStack" />
-        <item itemvalue="Application.MyLinkedList" />
-        <item itemvalue="Application.MyList" />
-        <item itemvalue="Application.ShapeManager" />
-        <item itemvalue="Application.DSA_DanhSach" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +161,8 @@
       <workItem from="1682559021520" duration="5738000" />
       <workItem from="1682584953901" duration="865000" />
       <workItem from="1682645229465" duration="3529000" />
+      <workItem from="1683164150159" duration="13477000" />
+      <workItem from="1683256907572" duration="6180000" />
     </task>
     <servers />
   </component>
