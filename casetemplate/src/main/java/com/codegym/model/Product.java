@@ -5,7 +5,7 @@ import com.codegym.utils.DateUtils;
 
 import java.util.Date;
 
-public class Product {
+public class Product implements IModel<Product>{
     private long id;
     private String name;
     private String description;
@@ -84,5 +84,20 @@ public class Product {
     }
 
 
-
+    @Override
+    public void parseData(String line) {
+        String[] items = line.split(",");
+        //1683514051,Iphone 11,dep lam 11,1000.0,08-05-2023 10:40,PHONE
+        long idProduct = Long.parseLong(items[0]);
+        float priceProduct = Float.parseFloat(items[3]);
+        Date createAt = DateUtils.parse(items[4]);
+        ECategory eCategory = ECategory.getECategoryByName(items[5]);
+//        Product p = new Product(idProduct, items[1], items[2], priceProduct, createAt, eCategory);
+        this.setId(idProduct);
+        this.setName(items[1]);
+        this.setDescription(items[2]);
+        this.setPrice(priceProduct);
+        this.setCreateAt(createAt);
+        this.seteCategory(eCategory);
+    }
 }
