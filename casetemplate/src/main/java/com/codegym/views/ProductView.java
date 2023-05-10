@@ -2,6 +2,7 @@ package com.codegym.views;
 
 import com.codegym.model.ECategory;
 import com.codegym.model.Product;
+import com.codegym.service.IProductService;
 import com.codegym.service.ProductServiceInFile;
 import com.codegym.service.ProductServiceInMemory;
 import com.codegym.utils.DateUtils;
@@ -12,7 +13,7 @@ import java.util.Scanner;
 
 public class ProductView {
     private Scanner scanner = new Scanner(System.in);
-    private ProductServiceInFile productService;
+    private IProductService productService;
 
     public ProductView() {
         productService = new ProductServiceInFile();
@@ -127,8 +128,6 @@ public class ProductView {
 
         return product;
     }
-
-
 
     private void showCreateProduct() {
         System.out.println("Thêm san phẩm");

@@ -14,7 +14,7 @@ import java.util.List;
 public class FileUtils {
     public static <T> void writeFile(String path, List<T> data) {
         try {
-            FileWriter fileWriter = new FileWriter("./data/product.csv");
+            FileWriter fileWriter = new FileWriter(path);
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
             for (T item : data) {

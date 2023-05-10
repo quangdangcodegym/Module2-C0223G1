@@ -1,5 +1,6 @@
 package com.codegym;
 
+import com.codegym.views.OrderView;
 import com.codegym.views.ProductView;
 import com.codegym.views.UserView;
 
@@ -8,7 +9,10 @@ public class Main {
 //        ProductView shopManager = new ProductView();
 //        shopManager.launcher();
 
-        UserView userView = new UserView();
-        userView.launcher();
+//        UserView userView = new UserView();
+//        userView.launcher();
+
+        OrderView orderView = new OrderView();
+        orderView.launcher();
     }
 }

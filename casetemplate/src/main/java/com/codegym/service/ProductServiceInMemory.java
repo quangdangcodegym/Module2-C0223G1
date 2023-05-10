@@ -8,10 +8,9 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ProductServiceInMemory {
+public class ProductServiceInMemory implements IProductService {
 
     private List<Product> products;
-
     public ProductServiceInMemory() {
         products = new ArrayList<>();
         // "08-05-2023 10:40" => Date: date
@@ -29,6 +28,16 @@ public class ProductServiceInMemory {
     }
     public List<Product> findAllProducts() {
         return this.products;
+    }
+
+    @Override
+    public Product findProduct(long idProduct) {
+        return null;
+    }
+
+    @Override
+    public void editProduct(long idProduct, Product product) {
+
     }
 
     public void addProduct(Product p) {

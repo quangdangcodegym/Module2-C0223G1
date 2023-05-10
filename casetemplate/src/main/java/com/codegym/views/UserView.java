@@ -32,10 +32,10 @@ public class UserView {
     }
 
     private void showUsers(List<User> allUsers) {
-        System.out.printf("%-10s | %-20s | %-20s | %-20s", "ID", "NAME", "EMAIL", "ROLE");
+        System.out.printf("%-10s | %-20s | %-20s | %-20s | %-20s", "ID", "NAME", "EMAIL","PASSWORD", "ROLE");
         for (int i = 0; i < allUsers.size(); i++) {
             User u = allUsers.get(i);
-            System.out.printf("%-10s | %-20s | %-20s | %-20s", u.getId(), u.getName(), u.getEmail(), u.geteRole());
+            System.out.printf("%-10s | %-20s | %-20s | %-20s | %-20s", u.getId(), u.getName(), u.getEmail(),u.getPassword(), u.geteRole());
         }
     }
 }

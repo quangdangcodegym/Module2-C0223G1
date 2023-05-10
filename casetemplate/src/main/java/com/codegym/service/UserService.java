@@ -6,7 +6,7 @@ import com.codegym.utils.FileUtils;
 
 import java.util.List;
 
-public class UserService {
+public class UserService implements IUserService {
     private final String path = "./data/user.csv";
     public List<User> findAllUsers() {
         List<User> users = FileUtils.readFile(path, User.class);

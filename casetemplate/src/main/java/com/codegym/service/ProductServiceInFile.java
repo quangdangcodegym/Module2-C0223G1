@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class ProductServiceInFile {
+public class ProductServiceInFile implements IProductService {
     private final String path = "./data/product.csv";
     public List<Product> findAllProducts() {
         List<Product> products = FileUtils.readFile(path, Product.class);

@@ -10,7 +10,6 @@ public class DateUtils {
     public static String format(Date date) {
         return formatter.format(date);
     }
-
     public static Date parse(String strDate) {
         try {
             return formatter.parse(strDate);
