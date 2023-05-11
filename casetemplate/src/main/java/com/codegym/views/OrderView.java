@@ -1,5 +1,6 @@
 package com.codegym.views;
 
+import com.codegym.model.ERole;
 import com.codegym.model.Order;
 import com.codegym.model.OrderItem;
 import com.codegym.model.Product;
@@ -7,6 +8,7 @@ import com.codegym.service.IOrderService;
 import com.codegym.service.IProductService;
 import com.codegym.service.OderServiceInFile;
 import com.codegym.service.ProductServiceInFile;
+import com.codegym.utils.AppUtils;
 import com.codegym.utils.DateUtils;
 
 import java.util.ArrayList;
@@ -26,11 +28,7 @@ public class OrderView {
 
     public void launcher() {
         do{
-            System.out.println("Menu chương trình:");
-            System.out.println("Nhập 1: Xem danh sách order");
-            System.out.println("Nhập 2: Thêm order");
-            System.out.println("Nhập 3: Xem chi tiết order");
-
+            AppUtils.menuOrderView(ERole.ADMIN);
             int actionMenu = Integer.parseInt(scanner.nextLine());
             switch (actionMenu) {
                 case 1:

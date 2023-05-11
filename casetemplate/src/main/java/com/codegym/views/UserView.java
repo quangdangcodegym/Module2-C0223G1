@@ -2,6 +2,7 @@ package com.codegym.views;
 
 import com.codegym.model.User;
 import com.codegym.service.UserService;
+import com.codegym.utils.AppUtils;
 
 import java.util.List;
 import java.util.Scanner;
@@ -14,22 +15,22 @@ public class UserView {
         userService = new UserService();
     }
     public void launcher() {
+        boolean checkContinue;
         do{
             System.out.println("Menu chương trình:");
             System.out.println("Nhập 1: Xem danh sách user");
             System.out.println("Nhập 2: Thêm user");
-
-
             int actionMenu = Integer.parseInt(scanner.nextLine());
             switch (actionMenu) {
                 case 1:
                     showUsers(userService.findAllUsers());
                     break;
-
             }
-        }while (true);
+            checkContinue = AppUtils.checkContinue();
+        }while (checkContinue);
 
     }
+
 
     private void showUsers(List<User> allUsers) {
         System.out.printf("%-10s | %-20s | %-20s | %-20s | %-20s", "ID", "NAME", "EMAIL","PASSWORD", "ROLE");

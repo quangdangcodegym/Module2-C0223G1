@@ -1,11 +1,14 @@
 package com.codegym.views;
 
 import com.codegym.model.ECategory;
+import com.codegym.model.ERole;
 import com.codegym.model.Product;
 import com.codegym.service.IProductService;
 import com.codegym.service.ProductServiceInFile;
 import com.codegym.service.ProductServiceInMemory;
+import com.codegym.utils.AppUtils;
 import com.codegym.utils.DateUtils;
+import com.codegym.utils.ValidateUtils;
 
 import java.util.Date;
 import java.util.List;
@@ -20,18 +23,9 @@ public class ProductView {
     }
 
     public void launcher() {
+        boolean checkActionContinue;
         do{
-            System.out.println("Menu chương trình:");
-            System.out.println("Nhập 1: Xem danh sách sản phẩm");
-            System.out.println("Nhập 2: Thêm sản phẩm");
-            System.out.println("Nhập 3: Xóa sản phẩm");
-            System.out.println("Nhập 4: Sắp xếp sản phẩm");
-            System.out.println("Nhập 5: Tìm kiếm sản phẩm");
-            System.out.println("Nhập 6: Đọc dữ liệu từ file");
-            System.out.println("Nhập 7: Ghi dữ liệu xuống file");
-            System.out.println("Nhập 8: Hiển thị sản phẩm có phân trang");
-            System.out.println("Nhập 9: Sửa sản phẩm");
-
+            AppUtils.menuProductView(ERole.ADMIN);
             int actionMenu = Integer.parseInt(scanner.nextLine());
             switch (actionMenu) {
                 case 1:
@@ -43,12 +37,29 @@ public class ProductView {
                 case 9:
                     editProduct();
                     break;
-
             }
-        }while (true);
+            checkActionContinue = AppUtils.checkContinue();
+
+        }while (checkActionContinue);
 
     }
 
+
+    private String inputNameProduct() {
+        String name;
+        do {
+            System.out.println("Thêm san phẩm");
+            System.out.println("Nhập tên:");
+            name = scanner.nextLine();
+            if (!ValidateUtils.isNameValid(name)) {
+                System.out.println("Tên không đúng vui lòng nhập lại. Tên sản phẩm phải từ 8-15 kí tự");
+            }else{
+                break;
+            }
+        } while (true);
+
+        return name;
+    }
     private void editProduct() {
         Product product = inputIdProduct();
         if (product != null) {
@@ -130,9 +141,9 @@ public class ProductView {
     }
 
     private void showCreateProduct() {
-        System.out.println("Thêm san phẩm");
-        System.out.println("Nhập tên:");
-        String name = scanner.nextLine();
+
+        String name = inputNameProduct();
+
         System.out.println("Nhập mo ta: ");
         String description = scanner.nextLine();
         System.out.println("Nhap gia: ");
