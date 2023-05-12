@@ -1,4 +1,4 @@
-package com.codegym.thread.basic;
+package com.codegym.thread.basic.implement_runable;
 
 public class PrintChar implements Runnable{
     private char charToPrint;

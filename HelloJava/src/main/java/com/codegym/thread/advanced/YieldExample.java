@@ -40,9 +40,27 @@ public class YieldExample {
                 Thread.yield();
             }
         });
+        // Tạo ra luồng thứ hai
+        Thread t3 = new Thread(() -> {
+            for (int i = 1; i <= 5; i++) {
+                System.out.println("Thread 3 - " + i);
+                // Nhường bộ xử lý cho luồng khác
+                Thread.yield();
+            }
+        });
+        // Tạo ra luồng thứ hai
+        Thread t4 = new Thread(() -> {
+            for (int i = 1; i <= 5; i++) {
+                System.out.println("Thread 4 - " + i);
+                // Nhường bộ xử lý cho luồng khác
+                Thread.yield();
+            }
+        });
 
         // Khởi động hai luồng
-        t1.start();
+        t4.start();
+        t3.start();
         t2.start();
+        t1.start();
     }
 }
