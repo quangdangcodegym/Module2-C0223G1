@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b1c64e6b-94ee-43fd-9e26-7c2a87d842c0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../casetemplate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../casetemplate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casetemplate/src/main/java/com/codegym/views/OrderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../casetemplate/src/main/java/com/codegym/views/OrderView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,19 +35,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CODEGYM/CODEGYM/Module2/C0223G1/HelloJava/src/main/java/com/codegym/thread/advanced&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/CODEGYM/CODEGYM/Module2/C0223G1/HelloJava",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\CODEGYM\CODEGYM\Module2\C0223G1\HelloJava\src\main\java\com\codegym\thread\advanced" />
@@ -54,13 +55,13 @@
       <recent name="D:\CODEGYM\CODEGYM\Module2\C0223G1\HelloJava\src\main\java\com\codegym\equal_hashcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestSynchronization1 (2)">
-    <configuration name="TestJoinMethod1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.thread.advanced.TestJoinMethod1" />
+  <component name="RunManager" selected="Application.Test1">
+    <configuration name="Counter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.thread.await_notify.Counter" />
       <module name="HelloJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.thread.advanced.*" />
+          <option name="PATTERN" value="com.codegym.thread.await_notify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSynchronization1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.thread.synchronization.TestSynchronization1" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.solid.Main" />
       <module name="HelloJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.thread.synchronization.*" />
+          <option name="PATTERN" value="com.codegym.solid.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSynchronization1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.thread.synchronization.TestSynchronization1" />
+    <configuration name="MapMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.map.MapMain" />
       <module name="HelloJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.thread.synchronization.*" />
+          <option name="PATTERN" value="com.codegym.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSynchronization1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.thread.synchronization.TestSynchronization1" />
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.thread.await_notify.Test1" />
       <module name="HelloJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.thread.synchronization.*" />
+          <option name="PATTERN" value="com.codegym.thread.await_notify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YieldExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codegym.thread.advanced.YieldExample" />
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.thread.await_notify.Test2" />
       <module name="HelloJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codegym.thread.advanced.*" />
+          <option name="PATTERN" value="com.codegym.thread.await_notify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestSynchronization1 (2)" />
-        <item itemvalue="Application.TestSynchronization1 (1)" />
-        <item itemvalue="Application.TestSynchronization1" />
-        <item itemvalue="Application.YieldExample" />
-        <item itemvalue="Application.TestJoinMethod1" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Counter" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MapMain" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +172,15 @@
       <workItem from="1683819656416" duration="1295000" />
       <workItem from="1683854675906" duration="9000" />
       <workItem from="1683873753965" duration="7547000" />
+      <workItem from="1684228607392" duration="3488000" />
+      <workItem from="1684287695302" duration="29000" />
+      <workItem from="1684314368861" duration="742000" />
+      <workItem from="1684380145043" duration="11000" />
+      <workItem from="1684381987506" duration="356000" />
+      <workItem from="1684548670471" duration="59000" />
+      <workItem from="1684632473822" duration="1924000" />
+      <workItem from="1684721034490" duration="45000" />
+      <workItem from="1685931124342" duration="652000" />
     </task>
     <servers />
   </component>

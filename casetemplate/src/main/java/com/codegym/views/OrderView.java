@@ -4,10 +4,7 @@ import com.codegym.model.ERole;
 import com.codegym.model.Order;
 import com.codegym.model.OrderItem;
 import com.codegym.model.Product;
-import com.codegym.service.IOrderService;
-import com.codegym.service.IProductService;
-import com.codegym.service.OderServiceInFile;
-import com.codegym.service.ProductServiceInFile;
+import com.codegym.service.*;
 import com.codegym.utils.AppUtils;
 import com.codegym.utils.DateUtils;
 
@@ -23,8 +20,10 @@ public class OrderView {
 
     public OrderView() {
         oderServiceInFile = new OderServiceInFile();
-        productService = new ProductServiceInFile();
+        productService = new ProductServiceInMemory();
     }
+
+
 
     public void launcher() {
         do{
